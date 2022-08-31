@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // Componentes
 import NavBar from './components/NavBar';
 import Habilidades from './components/Habilidades';
-import Trabajos from './components/Trabajos';
+import HechoPorMi from './components/HechoPorMi';
 import SobreMi from './components/SobreMi';
 
 
@@ -19,7 +19,7 @@ function App() {
       </div>
 
       <div className='container' id='hechoPorMi'>
-        <Trabajos/>
+        <HechoPorMi/>
       </div>
 
       <div className='container' id='habilidades'>

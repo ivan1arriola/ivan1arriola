@@ -5,62 +5,32 @@
 }
 
 /* CSS de la pagina anterior */
-h2,
-h3 {
-  background: linear-gradient(30deg, green, greenyellow);
-  color: aliceblue;
-  font-size: 4em;
-  margin: auto;
-  width: 99%;
-  padding: 10px;
-  text-shadow: 2px 2px 4px #000000;
-}
 
 h2 {
   font-size: 3em;
-}
-
-h3 {
-  font-size: 2em;
+  color: aliceblue;
+  margin: auto;
+  padding: 10px;
+  text-shadow: 2px 2px 4px #000000;
+  background: linear-gradient(30deg, green, greenyellow);
 }
 
 .container{
   padding: 1em;
-}
-
-#allmylinks {
-  max-width: 100%;
-  display: block;
-  margin: 0;
-  border: none;
-  overflow: hidden;
-  float: left;
-}
-
-.text {
-  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
-  font-size: larger;
-}
-
-.tipoObjeto {
-  max-width: 50%;
-  background-color: #c8fa78;
-  display: inline-block;
-  margin: 5px;
-  padding: 1em;
-  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
-}
-
-hr {
-  border: 2px dashed green;
-}
-
-.selfie {
-  float: left;
-  margin: auto;
+  
 }
 
 .card-img{
   max-width: 50%;
   margin: auto;
+}
+
+#selfie{
+  width: 10em;
+  float: left;
+}
+
+p{
+  font-weight: 400;
+  font-size: 1.5em;
 }

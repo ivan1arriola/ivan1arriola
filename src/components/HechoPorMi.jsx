@@ -1,7 +1,7 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-function Trabajos() {
+function HechoPorMi() {
   const cameliaLogo = require('../img/cameliaLogo.png');
   return (
     <>
@@ -15,7 +15,7 @@ function Trabajos() {
                   Creador de la pagina principal de Floreria Camelia. <br></br>
                   Hecha con Google Sites
                 </Card.Text>
-                <Button variant="primary" href="https:www.floreriacamelia.com" target="_blank" >
+                <Button variant="primary" href="https://www.floreriacamelia.com" target="_blank" >
                   Visitar Pagina
                 </Button>
             </Card.Body>
@@ -26,4 +26,4 @@ function Trabajos() {
   );
 }
 
-export default Trabajos;
+export default HechoPorMi;
