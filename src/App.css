@@ -1,38 +1,66 @@
 .App {
   text-align: center;
+  font-size: large;
+  background: linear-gradient(30deg,white, rgb(238, 247, 237));
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* CSS de la pagina anterior */
+h2,
+h3 {
+  background: linear-gradient(30deg, green, greenyellow);
+  color: aliceblue;
+  font-size: 4em;
+  margin: auto;
+  width: 99%;
+  padding: 10px;
+  text-shadow: 2px 2px 4px #000000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+  font-size: 3em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h3 {
+  font-size: 2em;
 }
 
-.App-link {
-  color: #61dafb;
+.container{
+  padding: 1em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#allmylinks {
+  max-width: 100%;
+  display: block;
+  margin: 0;
+  border: none;
+  overflow: hidden;
+  float: left;
+}
+
+.text {
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+  font-size: larger;
+}
+
+.tipoObjeto {
+  max-width: 50%;
+  background-color: #c8fa78;
+  display: inline-block;
+  margin: 5px;
+  padding: 1em;
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15);
+}
+
+hr {
+  border: 2px dashed green;
+}
+
+.selfie {
+  float: left;
+  margin: auto;
+}
+
+.card-img{
+  max-width: 50%;
+  margin: auto;
 }
