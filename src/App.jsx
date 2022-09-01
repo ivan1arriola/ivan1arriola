@@ -7,6 +7,7 @@ import NavBar from './components/NavBar';
 import Habilidades from './components/Habilidades';
 import HechoPorMi from './components/HechoPorMi';
 import SobreMi from './components/SobreMi';
+import Redes from './components/Redes';
 
 
 function App() {
@@ -24,6 +25,10 @@ function App() {
 
       <div className='container' id='habilidades'>
         <Habilidades/>
+      </div>
+
+      <div className='container' id='redes'>
+        <Redes/>
       </div>
       
     </div>

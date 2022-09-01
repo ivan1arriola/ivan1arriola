@@ -18,6 +18,7 @@ const SobreMi = () => {
     <>
       <h2>Sobre Mi</h2>
       <div className="container">
+
         <Image
           id="selfie"
           roundedCircle="true"
@@ -26,13 +27,15 @@ const SobreMi = () => {
           alt="Selfie"
         />
         <p className="text">
-          Mi nombre es Ivan Arriola, tengo {edad} años <br />
-          Soy de Montevideo, Uruguay. <br />
-          Estudio ingenieria en Computacion en la FING, UdelaR. <br />
-          Tambien soy estudiante del programa de Jovenes a Programar de Ceibal{" "}
+          Mi nombre es Ivan Arriola y tengo {edad} años.
+          Soy de  Montevideo, Uruguay.
+          Estudio Ingenieria en Computacion en la FING, UdelaR.
+          Tambien soy estudiante de Jovenes a Programar, un programa de Ceibal
           <br />
         </p>
       </div>
+
+      
 
       <hr />
     </>

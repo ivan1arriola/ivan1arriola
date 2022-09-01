@@ -6,11 +6,10 @@ function Habilidades() {
     <h2>Habilidades</h2>
     <div className='container'>
         <ListGroup>
-        <ListGroup.Item variant="success" className='text'>Programar en C, Pascal, R, Javascript y Java</ListGroup.Item>
-        <ListGroup.Item variant="info" className='text'>Buscar por internet absolutamente todo lo que no sé</ListGroup.Item>
-        <ListGroup.Item variant="danger" className='text'>Bueno con la ofimatica</ListGroup.Item>
-        <ListGroup.Item variant="warning" className='text'>Conocimientos de Illustrator</ListGroup.Item>
-        <ListGroup.Item variant="primary" className='text'>Conocimientos de React</ListGroup.Item>
+        <ListGroup.Item variant="success" className='text'><p>Programar en C, Pascal, R, Javascript y Java</p></ListGroup.Item>
+        <ListGroup.Item variant="info" className='text'><p>Buscar por internet absolutamente todo lo que no sé</p></ListGroup.Item>
+        <ListGroup.Item variant="warning" className='text'><p>Conocimientos de Illustrator</p></ListGroup.Item>
+        <ListGroup.Item variant="primary" className='text'><p>Conocimientos de React</p></ListGroup.Item>
         </ListGroup>
     </div>
     
