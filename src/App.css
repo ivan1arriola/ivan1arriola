@@ -1,6 +1,7 @@
 .App {
   text-align: center;
   font-size: large;
+  font-family: 'Noto Sans', sans-serif;
   background: linear-gradient(30deg,white, rgb(238, 247, 237));
 }
 
