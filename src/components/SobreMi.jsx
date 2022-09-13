@@ -1,7 +1,8 @@
 import Image from "react-bootstrap/Image";
 
 const SobreMi = () => {
-  const foto = require("../img/selfie.jpg");
+
+  
 
   /* Actualiza la edad automaticamente */
   const hoy = new Date();
@@ -23,7 +24,7 @@ const SobreMi = () => {
           id="selfie"
           roundedCircle="true"
           thumbnail="true"
-          src={foto}
+          src={'https://allmylinks.com/upload/User/photo/i/T/E/RxRPI7FWuZNUeXCifEzAkM1jPqhn34qa.jpg'}
           alt="Selfie"
         />
         <p className="text">
