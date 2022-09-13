@@ -14,6 +14,7 @@ function NavBar() {
             <Nav.Link href="#habilidades">Habilidades</Nav.Link>
             <Nav.Link href="#hechoPorMi">Hecho Por Mi</Nav.Link>
             <Nav.Link href="#redes">Redes Sociales</Nav.Link>
+            <Nav.Link href="/VeroViajes">Vero Viajes</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
