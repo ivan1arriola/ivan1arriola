@@ -1,24 +1,26 @@
-import React, { useState } from "react";
+import React from "react";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import Modal from "react-bootstrap/Modal";
 
 function AgregarEditar(props) {
-  const { isEdit , nombre, ci, fechaNacimiento} = props;
-  const [show, setShow] = useState(false);
-
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
+  const {
+    isEdit,
+    nombre,
+    ci,
+    fechaNacimiento,
+    show,
+    handleClose,
+    setCi,
+    setFechaNacimiento,
+    setNombre,
+  } = props;
 
   return (
     <>
-      <Button variant="success" size="lg" onClick={handleShow}>
-        Agregar Pasajero
-      </Button>
-
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>{isEdit ? "Agregar" : "Editar"} Pasajero</Modal.Title>
+          <Modal.Title>{isEdit ? "Editar" : "Agregar"} Pasajero</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <Form>
@@ -29,6 +31,7 @@ function AgregarEditar(props) {
                 value={nombre}
                 placeholder="Ingrese nombre y apellido"
                 autoFocus
+                onChange={(event) => setNombre(event.target.value)}
               />
             </Form.Group>
 
@@ -39,12 +42,18 @@ function AgregarEditar(props) {
                 value={ci}
                 placeholder="Ingrese cedula"
                 autoFocus
+                onChange={(event) => setCi(event.target.value)}
               />
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
               <Form.Label>Fecha de Nacimiento</Form.Label>
-              <Form.Control type="date" value={fechaNacimiento} autoFocus />
+              <Form.Control
+                type="date"
+                value={fechaNacimiento}
+                autoFocus
+                onChange={(event) => setFechaNacimiento(event.target.value)}
+              />
             </Form.Group>
           </Form>
           <Modal.Footer>

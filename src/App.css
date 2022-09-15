@@ -46,3 +46,8 @@ p{
   margin: 5px;
   padding: 1em;
 }
+
+.error{
+  background-color: red;
+  color: aliceblue;
+}

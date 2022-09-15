@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.2.0",
     "ciuy": "^1.0.0",
+    "httpclient": "^0.1.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-bootstrap-switch": "^15.5.3",
