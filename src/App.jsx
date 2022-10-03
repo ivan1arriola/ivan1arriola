@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // Componentes
 import NavBar from './components/NavBar';
 import Habilidades from './components/Habilidades';
-import HechoPorMi from './components/HechoPorMi';
+import Proyectos from './components/Proyectos';
 import SobreMi from './components/SobreMi';
 import Redes from './components/Redes';
 
@@ -16,20 +16,19 @@ function App() {
   return (
     <div className="App" id="home"> <NavBar/>
 
-      <div className='container' id='sobreMi'>
+      <div id='sobreMi'>
         <SobreMi/>
-
       </div>
 
-      <div className='container' id='hechoPorMi'>
-        <HechoPorMi/>
+      <div id='proyectos'>
+        <Proyectos/>
       </div>
 
-      <div className='container' id='habilidades'>
+      <div id='habilidades'>
         <Habilidades/>
       </div>
 
-      <div className='container' id='redes'>
+      <div id='redes'>
         <Redes/>
       </div>
       

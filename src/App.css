@@ -1,52 +1,41 @@
 .App {
   text-align: center;
-  font-size: large;
-  font-family: 'Noto Sans', sans-serif;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  font-family: 'Roboto', sans-serif;
+  color: black;
   background: linear-gradient(30deg,white, rgb(238, 247, 237));
 }
 
-/* CSS de la pagina anterior */
+.navbar h1{
+  font-size: calc(1em + 2vmin);
+}
 
 h2 {
   font-size: 3em;
   color: aliceblue;
   margin: auto;
-  padding: 10px;
+  padding: 0.5em;
   text-shadow: 2px 2px 4px #000000;
   background: linear-gradient(30deg, green, greenyellow);
 }
 
-.container{
-  display: inline-block;
-  padding: 1em;
-}
-
-.card-img{
-  max-width: 50%;
+.App img{
+  max-width:  calc(10em + 2vmin);;
   margin: auto;
 }
 
-#selfie{
-  width: 10em;
+h3{
+  font-size: 3em;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.foto{
   float: left;
 }
 
-p{
-  font-weight: 400;
-  font-size: 1.5em;
-}
-
 .icono{
-  margin-left: 1em;
-}
-
-.cads{
-  display: inline-block;
-  margin: 5px;
-  padding: 1em;
-}
-
-.error{
-  background-color: red;
-  color: aliceblue;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }

@@ -1,5 +1,5 @@
 {
-  "homepage": "https://mipagina.ivan1arriola.com/",
+  "homepage": "https://www.ivan1arriola.com/",
   "name": "mi-pagina-react",
   "version": "0.1.0",
   "private": true,
@@ -17,6 +17,7 @@
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "react-social-icons": "^5.14.0",
+    "sheetdb-node": "^0.0.12",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

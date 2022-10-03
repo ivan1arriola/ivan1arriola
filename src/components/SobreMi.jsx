@@ -2,7 +2,7 @@ import Image from "react-bootstrap/Image";
 
 const SobreMi = () => {
 
-  
+
 
   /* Actualiza la edad automaticamente */
   const hoy = new Date();
@@ -14,29 +14,38 @@ const SobreMi = () => {
     edad--;
   }
   // ------
-
+  const foto = require("../img/selfie.jpg")
   return (
     <>
       <h2>Sobre Mi</h2>
-      <div className="container">
+      <div className="d-flex justify-content-center ">
 
-        <Image
-          id="selfie"
-          roundedCircle="true"
-          thumbnail="true"
-          src={'https://allmylinks.com/upload/User/photo/i/T/E/RxRPI7FWuZNUeXCifEzAkM1jPqhn34qa.jpg'}
-          alt="Selfie"
-        />
-        <p className="text">
-          Mi nombre es Ivan Arriola y tengo {edad} años.
-          Soy de  Montevideo, Uruguay.
-          Estudio Ingenieria en Computacion en la FING, UdelaR.
-          Tambien soy estudiante de Jovenes a Programar, un programa de Ceibal
-          <br />
-        </p>
+        <div class="col-md-9 d-flex justify-content-center align-items-center">
+          <div class="">
+            <p>Mi nombre es Ivan Arriola y tengo {edad} años.<br />
+              Soy de  Montevideo, Uruguay.<br />
+              Estudio Ingenieria en Computacion en la FING, UdelaR. <br />
+              Tambien soy estudiante de Jovenes a Programar, un programa de Ceibal</p>
+          </div>
+        </div>
+
+        <div class="col-md-3 d-flex justify-content-center align-items-center">
+          <div class="">
+            <Image
+              className=""
+              roundedCircle="true"
+              thumbnail="true"
+              src={foto}
+              alt="Selfie"
+            />
+          </div>
+        </div>
+
+
+
       </div>
 
-      
+
 
       <hr />
     </>
