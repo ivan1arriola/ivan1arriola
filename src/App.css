@@ -2,12 +2,12 @@
   text-align: center;
   min-height: 100vh;
   font-size: calc(10px + 2vmin);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: black;
-  background: linear-gradient(30deg,white, rgb(238, 247, 237));
+  background: linear-gradient(30deg, white, rgb(238, 247, 237));
 }
 
-.navbar h1{
+.navbar h1 {
   font-size: calc(1em + 2vmin);
 }
 
@@ -20,22 +20,22 @@ h2 {
   background: linear-gradient(30deg, green, greenyellow);
 }
 
-.App img{
-  max-width:  calc(10em + 2vmin);;
+.App img {
+  max-width: calc(10em + 2vmin);
   margin: auto;
 }
 
-h3{
+h3 {
   font-size: 3em;
   font-weight: 700;
   font-style: normal;
 }
 
-.foto{
+.foto {
   float: left;
 }
 
-.icono{
+.icono {
   margin-left: 0.5em;
   margin-right: 0.5em;
 }

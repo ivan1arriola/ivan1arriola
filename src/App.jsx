@@ -31,7 +31,6 @@ function App() {
       <div id='redes'>
         <Redes/>
       </div>
-      
     </div>
     
   );
