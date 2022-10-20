@@ -4,7 +4,8 @@ import CardGroup from 'react-bootstrap/CardGroup';
 
 function HechoPorMi() {
   const cameliaLogo = require('../img/cameliaLogo.png');
-  const obrasfunerariasLogo = require("../img/faviconObrasFunerariasCamelia.png")
+  const obrasfunerariasLogo = require("../img/faviconObrasFunerariasCamelia.png");
+  const reparcell = require("../img/reparcell-icono.png")
   return (
     <>
       <h2>Mis Proyectos</h2>
@@ -33,6 +34,19 @@ function HechoPorMi() {
                 Pagina web de Obras Funerarias Camelia <br /> Hecha con <b>React</b>
               </Card.Text>
               <Button variant="primary" href="https://camelia.obrasfunerarias.com" target="_blank">
+                Visitar Pagina <br /> (aún en construcción)
+              </Button>
+            </Card.Body>
+          </Card>
+
+          <Card>
+            <Card.Img variant="top" src={reparcell} />
+            <Card.Body>
+              <Card.Title as="h3">REPARCELL</Card.Title>
+              <Card.Text>
+                Pagina web de REPARCELL <br /> Hecha con <b>React</b>
+              </Card.Text>
+              <Button variant="primary" href="https://www.reparcell.site" target="_blank">
                 Visitar Pagina <br /> (aún en construcción)
               </Button>
             </Card.Body>
