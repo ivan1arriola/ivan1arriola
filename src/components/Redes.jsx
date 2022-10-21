@@ -12,9 +12,9 @@ const Redes = () => {
         <h2>Mis redes sociales</h2>
 
         <div className="d-inline-flex">
-            <div className=''><SocialIcon className='icono' url={instagram} target='_blank' /> </div>
-            <div className=''><SocialIcon className='icono' url={github} target='_blank' /> </div>
-            <div className=''><SocialIcon className='icono' url={linkedin} target='_blank' /> </div>
+            <div><SocialIcon className='icono' url={instagram} target='_blank' /> </div>
+            <div><SocialIcon className='icono' url={github} target='_blank' /> </div>
+            <div><SocialIcon className='icono' url={linkedin} target='_blank' /> </div>
         </div>
 
         <hr />
