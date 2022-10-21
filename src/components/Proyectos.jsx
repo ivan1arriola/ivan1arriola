@@ -6,6 +6,7 @@ function HechoPorMi() {
   const cameliaLogo = require('../img/cameliaLogo.png');
   const obrasfunerariasLogo = require("../img/faviconObrasFunerariasCamelia.png");
   const reparcell = require("../img/reparcell-icono.png")
+  const japProyecto = require("../img/jap-proyecto.png")
   return (
     <>
       <h2>Mis Proyectos</h2>
@@ -48,6 +49,19 @@ function HechoPorMi() {
               </Card.Text>
               <Button variant="primary" href="https://www.reparcell.site" target="_blank">
                 Visitar Pagina <br /> (aún en construcción)
+              </Button>
+            </Card.Body>
+          </Card>
+
+          <Card>
+            <Card.Img variant="top" src={japProyecto} />
+            <Card.Body>
+              <Card.Title as="h3">Proyecto Obligatorio Desarrollo Web</Card.Title>
+              <Card.Text>
+                Proyecto del curso de Jovenes a Programar (Ceibal)
+              </Card.Text>
+              <Button variant="primary" href="/proyectojap">
+                Ver más
               </Button>
             </Card.Body>
           </Card>

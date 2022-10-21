@@ -1,38 +1,22 @@
-
-
-// Estilos
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 // Componentes
 import NavBar from './components/NavBar';
-import Habilidades from './components/Habilidades';
-import Proyectos from './components/Proyectos';
-import SobreMi from './components/SobreMi';
-import Redes from './components/Redes';
+import ProyectoJAP from "./components/ProyectoJAP"
+import Principal from './components/Principal';
 
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App" id="home"> <NavBar/>
+    <div className="App" id="home"> <NavBar />
 
-      <div id='sobreMi'>
-        <SobreMi/>
-      </div>
-
-      <div id='proyectos'>
-        <Proyectos/>
-      </div>
-
-      <div id='habilidades'>
-        <Habilidades/>
-      </div>
-
-      <div id='redes'>
-        <Redes/>
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Principal />} />
+          <Route path="/proyectojap" element={<ProyectoJAP />} />
+        </Routes>
+      </BrowserRouter>
     </div>
-    
+
   );
 }
 

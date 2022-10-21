@@ -18,10 +18,10 @@ const SobreMi = () => {
   return (
     <>
       <h2>Sobre Mi</h2>
-      <div className="d-flex justify-content-center ">
+      <div className="d-flex justify-content-center mx-2">
 
-        <div class="col-md-9 d-flex justify-content-center align-items-center">
-          <div class="">
+        <div className="col-md-9 d-flex justify-content-center align-items-center">
+          <div>
             <p>Mi nombre es Ivan Arriola y tengo {edad} años.<br />
               Soy de  Montevideo, Uruguay.<br />
               Estudio Ingenieria en Computacion en la FING, UdelaR. <br />
@@ -29,10 +29,9 @@ const SobreMi = () => {
           </div>
         </div>
 
-        <div class="col-md-3 d-flex justify-content-center align-items-center">
-          <div class="">
+        <div className="col-md-3 d-flex justify-content-center align-items-center">
+          <div>
             <Image
-              className=""
               roundedCircle="true"
               thumbnail="true"
               src={foto}
