@@ -1,4 +1,4 @@
-# Mi pagina personal
+# ivan1arriola
 * Mi nombre es Ivan Arriola
 * Tengo 22 años. 
 * Soy de Montevideo, Uruguay.
