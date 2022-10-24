@@ -2,7 +2,7 @@
   text-align: center;
   min-height: 100vh;
   font-size: calc(10px + 2vmin);
-  font-family: "Roboto", sans-serif;
+  font-family: 'IBM Plex Sans', sans-serif;
   color: black;
   background: linear-gradient(30deg, white, rgb(238, 247, 237));
 }
@@ -14,11 +14,12 @@
 
 h2 {
   font-size: 3em;
+  font-weight: 700;
   color: aliceblue;
   margin: auto;
-  padding: 0.5em;
-  text-shadow: 2px 2px 4px #000000;
-  background: linear-gradient(30deg, green, greenyellow);
+  padding: 10px;
+  text-shadow: 2px 2px 2px #000000;
+  background: linear-gradient(30deg, #E90DCA, #1536F1);
 }
 
 .App img {
