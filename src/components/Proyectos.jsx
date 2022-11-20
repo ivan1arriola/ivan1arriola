@@ -46,11 +46,11 @@ function HechoPorMi() {
               <Card.Text>
                 Proyecto del curso de Jóvenes a Programar (Ceibal)
               </Card.Text>
-              <Button variant="primary" href="/proyectojap">
-                Ver más
-              </Button>
               <Button variant="primary" href="https://ivan1arriola.github.io/ProyectoJAP" target="_blank">
                 Visitar Pagina
+              </Button> {"  "}	
+              <Button variant="secondary" href="/proyectojap">
+                Ver más
               </Button>
             </Card.Body>
           </Card>
