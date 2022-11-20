@@ -35,7 +35,7 @@ function HechoPorMi() {
                 Pagina web de Obras Funerarias Camelia <br /> Hecha con <b>React</b>
               </Card.Text>
               <Button variant="primary" href="https://camelia.obrasfunerarias.com" target="_blank">
-                Visitar Pagina <br /> (aún en construcción)
+                Visitar Pagina <br />
               </Button>
             </Card.Body>
           </Card>
@@ -48,7 +48,7 @@ function HechoPorMi() {
                 Pagina web de REPARCELL <br /> Hecha con <b>React</b>
               </Card.Text>
               <Button variant="primary" href="https://www.reparcell.site" target="_blank">
-                Visitar Pagina <br /> (aún en construcción)
+                Visitar Pagina <br />
               </Button>
             </Card.Body>
           </Card>
