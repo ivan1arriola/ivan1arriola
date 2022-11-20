@@ -5,7 +5,6 @@ import CardGroup from 'react-bootstrap/CardGroup';
 function HechoPorMi() {
   const cameliaLogo = require('../img/cameliaLogo.png');
   const obrasfunerariasLogo = require("../img/faviconObrasFunerariasCamelia.png");
-  const reparcell = require("../img/reparcell-icono.png")
   const japProyecto = require("../img/jap-proyecto.png")
   return (
     <>
@@ -16,9 +15,9 @@ function HechoPorMi() {
           <Card>
             <Card.Img variant="top" src={cameliaLogo} />
             <Card.Body>
-              <Card.Title as="h3">Floreria Camelia</Card.Title>
+              <Card.Title as="h3">Florería Camelia</Card.Title>
               <Card.Text>
-                Creador de la pagina principal de Floreria Camelia. <br></br>
+                Creador de la pagina principal de Florería Camelia. <br></br>
                 Hecha con <b>React</b>
               </Card.Text>
               <Button variant="primary" href="https://www.floreriacamelia.com" target="_blank" >
@@ -41,24 +40,11 @@ function HechoPorMi() {
           </Card>
 
           <Card>
-            <Card.Img variant="top" src={reparcell} />
-            <Card.Body>
-              <Card.Title as="h3">REPARCELL</Card.Title>
-              <Card.Text>
-                Pagina web de REPARCELL <br /> Hecha con <b>React</b>
-              </Card.Text>
-              <Button variant="primary" href="https://www.reparcell.site" target="_blank">
-                Visitar Pagina <br />
-              </Button>
-            </Card.Body>
-          </Card>
-
-          <Card>
             <Card.Img variant="top" src={japProyecto} />
             <Card.Body>
               <Card.Title as="h3">Proyecto Obligatorio Desarrollo Web</Card.Title>
               <Card.Text>
-                Proyecto del curso de Jovenes a Programar (Ceibal)
+                Proyecto del curso de Jóvenes a Programar (Ceibal)
               </Card.Text>
               <Button variant="primary" href="/proyectojap">
                 Ver más
