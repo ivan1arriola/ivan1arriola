@@ -63,6 +63,9 @@ function HechoPorMi() {
               <Button variant="primary" href="/proyectojap">
                 Ver más
               </Button>
+              <Button variant="primary" href="https://ivan1arriola.github.io/ProyectoJAP" target="_blank">
+                Visitar Pagina
+              </Button>
             </Card.Body>
           </Card>
         </CardGroup>

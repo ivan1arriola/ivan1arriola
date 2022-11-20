@@ -12,10 +12,10 @@
 /build
 
 # vscode
-.vscode/*
+/.vscode
 
 # github
-.github/*
+/.github
 
 # misc
 .DS_Store
