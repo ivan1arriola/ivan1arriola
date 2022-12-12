@@ -9,7 +9,7 @@ const Redes = () => {
 
     return (<>
 
-        <h2>Mis redes sociales</h2>
+        <h2>Mis Links</h2>
 
         <div className="d-inline-flex">
             <div><SocialIcon className='icono' url={instagram} target='_blank' /> </div>

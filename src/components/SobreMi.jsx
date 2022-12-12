@@ -25,7 +25,7 @@ const SobreMi = () => {
             <p>Mi nombre es Ivan Arriola y tengo {edad} años.<br />
               Soy de  Montevideo, Uruguay.<br />
               Estudio Ingenieria en Computacion en la FING, UdelaR. <br />
-              Tambien soy estudiante de Jovenes a Programar, un programa de Ceibal</p>
+              Tambien soy egresado de Jovenes a Programar (Ceibal) <br /> de su edición Desarrollo Web 2022</p>
           </div>
         </div>
 

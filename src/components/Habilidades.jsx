@@ -16,10 +16,6 @@ function Habilidades() {
             <h3>Otros conocimientos en Programación</h3>
             <p>Java, C++ , Pascal, R</p>
           </ListGroup.Item>
-          <ListGroup.Item action>
-            <h3>Edición Multimedia</h3>
-            <p>Adobe Illustrator</p>
-          </ListGroup.Item>
         </ListGroup>
       </div>
 

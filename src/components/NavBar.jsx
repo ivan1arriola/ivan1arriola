@@ -18,7 +18,7 @@ function NavBar() {
             <Nav.Link href="/#sobreMi">Sobre Mi</Nav.Link>
             <Nav.Link href="/#proyectos">Mis Proyectos</Nav.Link>
             <Nav.Link href="/#habilidades">Habilidades</Nav.Link>
-            <Nav.Link href="/#redes">Redes Sociales</Nav.Link>
+            <Nav.Link href="/#redes">Mis Links</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

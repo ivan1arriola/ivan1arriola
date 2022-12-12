@@ -7,7 +7,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App" id="home"> <NavBar />
+    <div className="App" id="home"> 
+      <NavBar />
 
       <BrowserRouter>
         <Routes>
