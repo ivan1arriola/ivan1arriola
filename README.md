@@ -3,4 +3,4 @@
 * Tengo 22 años. 
 * Soy de Montevideo, Uruguay.
 * Estudio Ingeniería en Computación en la FING, UdelaR.
-* Soy estudiante de Jóvenes a Programar, un programa de Ceibal.
+* Soy egresado de Jóvenes a Programar 2022, un programa de Ceibal, en la tecnología Desarrollo Web.
