@@ -10,8 +10,7 @@ import Redes from './Redes';
 
 function Principal() {
   return (
-    <div className="App" id="home">
-
+    <div>
       <div id='sobreMi'>
         <SobreMi/>
       </div>
