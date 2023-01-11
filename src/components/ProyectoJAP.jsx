@@ -1,13 +1,5 @@
 import styled from "styled-components";
 
-const MaterialIcon = styled.i.attrs(() => ({ className: "material-icons" }))`
-  background-color: green;
-  font-size: 100px;
-  &:after {
-    content: ${props => props.iconName || "help"};
-  }
-`;
-
 const Container = styled.div`
   background-color: #f5f5f5;
   border-radius: 100px;
@@ -15,19 +7,8 @@ const Container = styled.div`
   margin: auto;
   margin-top:10px;
   margin-bottom:10px;
-  height: 90vh;
-  .material-symbols-outlined {
-    font-variation-settings:
-    'FILL' 0,
-    'wght' 400,
-    'GRAD' 0,
-    'opsz' 48
-  }
+  min-height: 100vh;
   `
-
-const Div = styled.div`
-  background-color: #f5f5f5;
-`;
 
 const Title = styled.h3`
   text-align: center;
@@ -38,48 +19,64 @@ const Title = styled.h3`
 const Text = styled.p`
   font-size: 1.5rem;
   text-align: center;
+  padding: 10px;
 `
 
-const List = styled.ul`
+const Lista = styled.div`
   font-size: 1.5rem;
   text-align: center;
-  text-decoration: none;
-`
-const Item = styled.li`
-  font-size: 1.5rem;
-  text-align: center;
-  text-decoration: none;
-`
+` 
 
-const RollbackButton = styled.button`
-  background-color: #f5f5f5;
-  border-radius: 100px;
-  text-align: center;
-
-  `
+const ListContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+`
 
 const goToHome = () => {
   window.location = "/";
 }
 
+const StyledDiv = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+`
+const Links = styled.a`
+  text-decoration: none;
+  color: blue;
+  font-size: 1.5rem;
+  text-align: center;
+  &:hover {
+    color: white;
+  }
+`
+
+const MainTitle = styled.h1`
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 1rem;
+`
 
 
 function ProyectoJAP() {
   return (
     <Container>
-      <h2>Proyecto Obligatorio Desarrollo Web de Jovenes a Programar</h2>
-      <p>
+      <MainTitle>Proyecto Obligatorio Desarrollo Web de Jovenes a Programar</MainTitle>
+
+      <Text>
         Este es el proyecto obligatorio del curso de Desarrollo Web de Jovenes a
         Programar.
-      </p>
-      <RollbackButton onClick={goToHome} />
-      <MaterialIcon iconName="check" />
-      <span class="material-symbols-outlined">
-arrow_back
-</span>
-      <div className="mx-5">
-        <Div>
-          <Div>
+      </Text>
+
+      <StyledDiv className="mx-5">
             <Title>Descripcion</Title>
             <Text>
               El proyecto consiste en crear una incremento de funcionalidades de
@@ -90,46 +87,49 @@ arrow_back
               en GitHub Pages. <br /> El proyecto fue de caracter individual y fue
               desarrollado en 8 entregas en 4 meses (julio a noviembre de 2022).
             </Text>
-          </Div>
-          <Div>
+          
             <Title>Tecnologias</Title>
-            <Text>
-              <List>
-                <Item>HTML</Item>
-                <Item>CSS</Item>
-                <Item>Javascript</Item>
-                <Item>NodeJs</Item>
-                <Item>Bootstrap</Item>
-              </List>
-            </Text>
-          </Div>
-          <Div>
+            <ListContainer>
+              <Lista>
+                HTML
+              </Lista>
+              <Lista>
+                CSS
+              </Lista>
+              <Lista>
+                Javascript
+              </Lista>
+              <Lista>
+                NodeJs
+              </Lista>
+              <Lista>
+                Bootstrap
+              </Lista>
+            </ListContainer>
+          
             <Title>Enlaces</Title>
-            <Text>
-              <ul>
-                <li>
-                  <a
+            <ListContainer>
+                <Lista>
+                  <Links
                     href="https://ivan1arriola.github.io/ProyectoJAP/"
                     target="_blank"
                     rel="noreferrer"
                   >
                     Sitio Web
-                  </a>
-                </li>
-                <li>
-                  <a
+                  </Links>
+                </Lista>
+                <Lista>
+                  <Links
                     href="https://www.github.com/ivan1arriola/ProyectoJAP"
                     target="_blank"
                     rel="noreferrer"
                   >
                     Repositorio
-                  </a>
-                </li>
-              </ul>
-            </Text>
-          </Div>
-        </Div>
-      </div>
+                  </Links>
+                </Lista>
+            </ListContainer>
+        
+      </StyledDiv>
     </Container>
   );
 }
