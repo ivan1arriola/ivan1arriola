@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.dc5f90ce.css",
-    "main.js": "/static/js/main.a2aebcb5.js",
+    "main.js": "/static/js/main.5f8bcf75.js",
     "static/media/jap-proyecto.png": "/static/media/jap-proyecto.161b19d52264c079bbec.png",
     "static/media/selfie.jpg": "/static/media/selfie.8267afb42cbe44da9e96.jpg",
     "static/media/camelia.svg": "/static/media/camelia.8041871e99062a008ad3cb7341b0f795.svg",
     "static/media/floreriaCamelia.svg": "/static/media/floreriaCamelia.8e829605be7a573f61a141d72972880a.svg",
+    "static/media/default.png": "/static/media/default.e1b3bf31a8ffb456853f.png",
     "index.html": "/index.html",
     "main.dc5f90ce.css.map": "/static/css/main.dc5f90ce.css.map",
-    "main.a2aebcb5.js.map": "/static/js/main.a2aebcb5.js.map"
+    "main.5f8bcf75.js.map": "/static/js/main.5f8bcf75.js.map"
   },
   "entrypoints": [
     "static/css/main.dc5f90ce.css",
-    "static/js/main.a2aebcb5.js"
+    "static/js/main.5f8bcf75.js"
   ]
 }
